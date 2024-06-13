@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            padding: 15px;
+            border: 2px solid #fff;
+            border-radius: 35px;
+            background-color: rgba(56, 224, 247, 0.5);
+            box-shadow: inset -5px -5px rgba(2, 2, 2, 0.5) ;
+            
+        }
+        input{
+            margin: 10px 0px;
+            height: 35px;
+            padding: 7px;
+            border-radius: 10px;
+        }
+        input:hover{
+            background-color: rgb(250, 205, 228);
+        }
+        button{
+            height: 35px;
+            width: 80px;
+            margin: 5px 0px;
+            background-color:  rgb(140, 248, 252);
+            border: none;
+            border-radius: 10px;
+            color: black;
+        }
+        button:hover{
+            background-color: rgb(241, 52, 147);
+            color: white;
+        }
+        #text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:white;
+        }
+        body{
+            background-image: url("★ᴀʀᴄᴀɴᴇ\ ᴡᴀʟʟᴘᴀᴘᴇʀ★\ \(2\).jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    <center>
+      <div class="container"> 
+        <br>
+        
+        <h1 id="text">-LOGIN-</h1>
+        <br>
+       
+      <form action="index.html" method="get">
+        <div>
+            <ion-icon name="mail"></ion-icon>
+            <input type="email" name="email" value="" placeholder="Enter your email">
+        </div>
+        
+        <div>
+            <ion-icon name="lock"></ion-icon>
+            <input type="password" name="password" value=""  placeholder="Enter your password">
+        </div>
+        
+        <div>
+            <br>
+            <nav>
+                <a href="newpass.html">Forgot password</a>
+            </nav>
+            <br>
+            <p id="text" >Dont't have an account <a href="Register.html">Register</a></p>
+            <br>
+            <button>Log in </button>
+        <br>
+        
+        </div>
+    </form>
+      </div>
+    </center>
+    <script src="https://unpkg.com/ionicons@4.1.2/dist/ionicons.js">
+    </script>
+</body>
+</html>
